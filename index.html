@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============ SEO & métadonnées ============ -->
+  <title>UMR-AMES — Analyse et Modélisation pour l'Environnement et la Santé</title>
+  <meta name="description" content="Unité Mixte de Recherche AMES : méthodes mathématiques, statistiques et d'intelligence artificielle au service des défis environnementaux et sanitaires de la Mauritanie.">
+  <meta name="author" content="UMR-AMES">
+  <meta property="og:title" content="UMR-AMES — Analyse et Modélisation pour l'Environnement et la Santé">
+  <meta property="og:description" content="Unité Mixte de Recherche réunissant chercheurs et enseignants-chercheurs autour de l'environnement et de la santé en Mauritanie.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="logo/ames.png">
+
+  <!-- ============ Favicon ============ -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- ============ Versions linguistiques (SEO) ============ -->
+  <link rel="alternate" hreflang="fr" href="./">
+  <link rel="alternate" hreflang="en" href="en/">
+  <link rel="alternate" hreflang="x-default" href="./">
+
+  <!-- ============ Polices : Spectral (titres) + IBM Plex Sans (texte) ============ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Spectral:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+  <!-- ============ Feuille de styles ============ -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Lien d'évitement pour l'accessibilité (lecteurs d'écran / clavier) -->
+  <a href="#accueil" class="skip-link">Aller au contenu principal</a>
+
+  <!-- ============================================================
+       EN-TÊTE & NAVIGATION
+  ============================================================= -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#accueil" class="brand" aria-label="UMR-AMES — Accueil">
+        <img src="logo/ames.png" alt="Logo UMR-AMES" class="brand-logo" width="40" height="46">
+        <span class="brand-text">
+          <strong>UMR&#8209;AMES</strong>
+          <small>Environnement &amp; Santé</small>
+        </span>
+      </a>
+
+      <!-- Bouton menu mobile -->
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#presentation">Présentation</a></li>
+          <li><a href="#axes">Axes</a></li>
+          <li><a href="#equipes">Équipes</a></li>
+          <li><a href="#membres">Membres</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#actualites">Actualités</a></li>
+          <li><a href="#partenaires">Partenaires</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+        <div class="lang-switch" role="navigation" aria-label="Choix de la langue">
+          <a href="./" class="active" aria-current="true">FR</a>
+          <a href="en/">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         ACCUEIL / HERO
+    ============================================================= -->
+    <section id="accueil" class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-text reveal">
+          <span class="eyebrow">Unité Mixte de Recherche</span>
+          <h1>Analyse et Modélisation pour l'Environnement et la Santé</h1>
+          <p class="lead">
+            L'UMR&nbsp;AMES conçoit et applique des méthodes mathématiques, statistiques
+            et d'intelligence artificielle pour modéliser les défis environnementaux
+            et sanitaires de la Mauritanie.
+          </p>
+          <div class="hero-actions">
+            <a href="#presentation" class="btn btn-primary">Découvrir l'unité</a>
+            <a href="#axes" class="btn btn-ghost">Nos axes de recherche</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="hero-orb"></div>
+          <img src="logo/ames.png" alt="" class="hero-logo">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CHIFFRES-CLÉS
+    ============================================================= -->
+    <section class="stats" aria-label="Chiffres-clés de l'unité">
+      <div class="container stats-grid">
+        <div class="stat reveal">
+          <span class="stat-num" data-count="33">0</span>
+          <span class="stat-label">Chercheurs</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-num" data-count="15">0</span>
+          <span class="stat-label">Membres permanents</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-num" data-count="18">0</span>
+          <span class="stat-label">Membres associés</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-num" data-count="5">0</span>
+          <span class="stat-label">Institutions partenaires</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PRÉSENTATION
+    ============================================================= -->
+    <section id="presentation" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-kicker">Présentation</span>
+          <h2>Une unité au service de l'environnement et de la santé</h2>
+        </header>
+
+        <div class="present-grid">
+          <div class="present-main reveal">
+            <p>
+              L'UMR&nbsp;AMES réunit des chercheurs et enseignants-chercheurs issus de
+              l'Université de Nouakchott, de l'ENSG, de l'IMROP, de l'ONISPA et du PNBA,
+              conformément au décret n°&nbsp;001045 encadrant les unités mixtes de recherche.
+            </p>
+
+            <h3>Mission</h3>
+            <p>
+              Concevoir et appliquer des méthodes mathématiques, statistiques et
+              d'intelligence artificielle pour modéliser les défis environnementaux
+              et sanitaires de la Mauritanie.
+            </p>
+
+            <h3>Objectifs</h3>
+            <ul class="check-list">
+              <li>Renforcer la compréhension des processus liés à l'environnement et à la gestion des ressources naturelles.</li>
+              <li>Appuyer la prise de décision sur des enjeux critiques de santé publique et d'épidémiologie.</li>
+              <li>Fournir des outils prédictifs et décisionnels adaptés aux contextes locaux.</li>
+            </ul>
+          </div>
+
+          <aside class="present-aside reveal">
+            <div class="card-info">
+              <h3>L'unité en bref</h3>
+              <dl>
+                <div><dt>Effectif</dt><dd>33 chercheurs</dd></div>
+                <div><dt>Disciplines</dt><dd>Mathématiques, statistiques, biologie, géomatique, écologie</dd></div>
+                <div><dt>Permanents</dt><dd>15 membres</dd></div>
+                <div><dt>Associés</dt><dd>18 membres</dd></div>
+                <div><dt>Cadre légal</dt><dd>Décret n°&nbsp;001045</dd></div>
+              </dl>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         AXES DE RECHERCHE
+    ============================================================= -->
+    <section id="axes" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-kicker">Axes de recherche</span>
+          <h2>Quatre axes interdisciplinaires</h2>
+          <p class="section-intro">
+            Les travaux de l'unité s'articulent autour de la modélisation des systèmes
+            environnementaux et sanitaires, à l'interface des mathématiques appliquées
+            et des sciences de la vie.
+          </p>
+        </header>
+
+        <div class="cards-grid">
+          <article class="axis-card reveal">
+            <div class="axis-icon" aria-hidden="true">💧</div>
+            <h3>Environnement &amp; ressources naturelles</h3>
+            <p>Modélisation du transport de polluants, dynamique des nappes phréatiques et gestion durable des ressources en eau et des écosystèmes.</p>
+          </article>
+          <article class="axis-card reveal">
+            <div class="axis-icon" aria-hidden="true">🩺</div>
+            <h3>Santé publique &amp; épidémiologie</h3>
+            <p>Modèles de propagation des maladies infectieuses et nosocomiales, et aide à la décision en santé publique.</p>
+          </article>
+          <article class="axis-card reveal">
+            <div class="axis-icon" aria-hidden="true">📐</div>
+            <h3>Modélisation mathématique</h3>
+            <p>Équations aux dérivées partielles, systèmes dynamiques et méthodes numériques pour les milieux poreux et les phénomènes complexes.</p>
+          </article>
+          <article class="axis-card reveal">
+            <div class="axis-icon" aria-hidden="true">🤖</div>
+            <h3>Statistiques &amp; intelligence artificielle</h3>
+            <p>Apprentissage automatique, analyse de données fonctionnelles et traitement du signal et de l'image appliqués aux sciences de l'environnement et de la santé.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ÉQUIPES
+    ============================================================= -->
+    <section id="equipes" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-kicker">Équipes</span>
+          <h2>Des groupes thématiques complémentaires</h2>
+          <p class="section-intro">
+            L'unité s'organise en groupes de travail réunissant mathématiciens,
+            statisticiens, biologistes, géomaticiens et écologues autour de ses axes.
+          </p>
+        </header>
+
+        <div class="cards-grid">
+          <article class="team-card reveal">
+            <h3>Mathématiques appliquées &amp; modélisation</h3>
+            <p>Modélisation numérique des milieux poreux, transport réactif et systèmes dynamiques.</p>
+            <span class="tag">Mathématiciens · Modélisateurs</span>
+          </article>
+          <article class="team-card reveal">
+            <h3>Statistique &amp; science des données</h3>
+            <p>Modèles linéaires généralisés, données fonctionnelles, apprentissage automatique et IA.</p>
+            <span class="tag">Statisticiens · Data scientists</span>
+          </article>
+          <article class="team-card reveal">
+            <h3>Santé &amp; épidémiologie</h3>
+            <p>Dynamique des épidémies, infections nosocomiales et appui à la décision sanitaire.</p>
+            <span class="tag">Biologistes · Épidémiologistes</span>
+          </article>
+          <article class="team-card reveal">
+            <h3>Environnement &amp; géomatique</h3>
+            <p>Surveillance des zones côtières, télédétection et gestion des ressources naturelles.</p>
+            <span class="tag">Géomaticiens · Écologues</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         MEMBRES
+    ============================================================= -->
+    <section id="membres" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-kicker">Membres</span>
+          <h2>Membres permanents</h2>
+          <p class="section-intro">
+            Recherchez un membre par son nom, son établissement ou sa spécialité.
+            <span class="muted">Les champs « à compléter » seront mis à jour par l'unité.</span>
+          </p>
+        </header>
+
+        <div class="table-tools reveal">
+          <label for="memberFilter" class="visually-hidden">Rechercher un membre</label>
+          <div class="search-field">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input type="text" id="memberFilter" placeholder="Rechercher un membre…" autocomplete="off">
+          </div>
+        </div>
+
+        <div class="table-wrap reveal">
+          <table id="membersTable">
+            <thead>
+              <tr>
+                <th scope="col">Nom</th>
+                <th scope="col">Établissement</th>
+                <th scope="col">Grade</th>
+                <th scope="col">Spécialité</th>
+                <th scope="col">Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Membre existant conservé -->
+              <tr>
+                <td>M. Benioug</td><td>IUP</td><td>MC</td>
+                <td>Mathématiques appliquées</td>
+                <td><a href="mailto:benioug@gmail.com">benioug@gmail.com</a></td>
+              </tr>
+              <!-- Membres identifiés via les publications de l'unité (champs à compléter) -->
+              <tr><td>E. Moulay Ely</td><td>—</td><td>—</td><td>Modélisation épidémiologique</td><td>à compléter</td></tr>
+              <tr><td>K. Niri</td><td>—</td><td>—</td><td>Systèmes dynamiques</td><td>à compléter</td></tr>
+              <tr><td>A. Ahmedou</td><td>—</td><td>—</td><td>Statistique fonctionnelle</td><td>à compléter</td></tr>
+              <tr><td>T. Bahar</td><td>—</td><td>—</td><td>Transport en milieu poreux</td><td>à compléter</td></tr>
+              <tr><td>A. Mohameden</td><td>—</td><td>—</td><td>Modélisation &amp; antennes / signal</td><td>à compléter</td></tr>
+              <tr><td>M. H. Mohamed Dyla</td><td>—</td><td>—</td><td>Traitement d'images</td><td>à compléter</td></tr>
+            </tbody>
+          </table>
+          <p class="table-empty" id="noResults" hidden>Aucun membre ne correspond à votre recherche.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROJETS
+    ============================================================= -->
+    <section id="projets" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-kicker">Projets</span>
+          <h2>Projets de recherche</h2>
+        </header>
+
+        <div class="cards-grid">
+          <article class="project-card reveal">
+            <span class="project-badge">Environnement</span>
+            <h3>Transport de polluants dans les nappes phréatiques</h3>
+            <p>Modélisation du transport et de la dégradation des polluants en milieu souterrain pour anticiper la contamination des ressources en eau.</p>
+          </article>
+          <article class="project-card reveal">
+            <span class="project-badge">Littoral</span>
+            <h3>Surveillance des zones côtières du PNBA</h3>
+            <p>Suivi des écosystèmes côtiers du Parc National du Banc d'Arguin par modélisation et outils de télédétection.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PUBLICATIONS
+    ============================================================= -->
+    <section id="publications" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-kicker">Publications</span>
+          <h2>Productions scientifiques</h2>
+          <p class="section-intro">Articles, ouvrages et travaux des membres de l'unité.</p>
+        </header>
+
+        <div class="table-tools reveal">
+          <label for="pubFilter" class="visually-hidden">Rechercher une publication</label>
+          <div class="search-field">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input type="text" id="pubFilter" placeholder="Filtrer par titre, auteur, revue, année…" autocomplete="off">
+          </div>
+        </div>
+
+        <ul class="pub-list" id="pubList">
+          <li class="pub-item reveal">
+            <span class="pub-year">2020</span>
+            <p><span class="pub-title">Design and Study of Planar Antennas for Ultra-Wide Band Applications.</span>
+            A. Mohameden, M. M. Haiballa, S. M. Mahmoud, S. Badra, Y. Beddiaf, A. D. Memoune, D. Memou, Y. Dialoo.
+            <span class="pub-venue">Mathematical Modelling of Engineering Problems</span>, Vol.&nbsp;7, juin&nbsp;2020, pp.&nbsp;237–241.</p>
+          </li>
+          <li class="pub-item reveal">
+            <span class="pub-year">2019</span>
+            <p><span class="pub-title">Interaction between biofilm growth and NAPL remediation: A pore-scale study.</span>
+            M. Benioug, F. Golfier, P. Fisher, C. Oltean, M. A. Buès, X. Yang.
+            <span class="pub-venue">Advances in Water Resources</span>, 2019, 125:82–97.</p>
+          </li>
+          <li class="pub-item reveal">
+            <span class="pub-year">2019</span>
+            <p><span class="pub-title">Text Line Segmentation and Binarization of Handwritten Historical Documents Using the Fast and Adaptive Bidimensional Empirical Mode Decomposition.</span>
+            M. H. Mohamed Dyla, F. Morain-Nicolier.
+            <span class="pub-venue">Optik</span>, Elsevier, 2019. DOI:&nbsp;10.1016/j.ijleo.2019.04.128.</p>
+          </li>
+          <li class="pub-item reveal">
+            <span class="pub-year">2018</span>
+            <p><span class="pub-title">Two Models of Nosocomial Infection, Comparative Study.</span>
+            E. Moulay Ely &amp; K. Niri.
+            <span class="pub-venue">Acta Biotheorica</span>, 2018, 154:252–257.</p>
+          </li>
+          <li class="pub-item reveal">
+            <span class="pub-year">2018</span>
+            <p><span class="pub-title">Cooperative system analysis of the Ebola virus epidemic model.</span>
+            E. Moulay Ely &amp; K. Niri.
+            <span class="pub-venue">Infectious Disease Modelling</span>, 2018, pp.&nbsp;117–121.</p>
+          </li>
+          <li class="pub-item reveal">
+            <span class="pub-year">2017</span>
+            <p><span class="pub-title">An immersed boundary-lattice Boltzmann model for biofilm growth in porous media.</span>
+            M. Benioug, F. Golfier, M. A. Buès, C. Oltean, T. Bahar, J. Cuny.
+            <span class="pub-venue">Advances in Water Resources</span>, 2017, 107:65–82.</p>
+          </li>
+          <li class="pub-item reveal">
+            <span class="pub-year">2016</span>
+            <p><span class="pub-title">An upscaled model for bio-enhanced NAPL Dissolution in porous media.</span>
+            T. Bahar, F. Golfier, C. Oltean, M. Benioug.
+            <span class="pub-venue">Transport in Porous Media</span>, 2016, 113:653–693.</p>
+          </li>
+          <li class="pub-item reveal">
+            <span class="pub-year">2016</span>
+            <p><span class="pub-title">Modélisation numérique de la croissance microbienne en milieu poreux.</span>
+            M. Benioug.
+            <span class="pub-venue">Éditions Universitaires Européennes</span>, Paris, 9&nbsp;février&nbsp;2016. ISBN&nbsp;978-3841776594.</p>
+          </li>
+          <li class="pub-item reveal">
+            <span class="pub-year">2016</span>
+            <p><span class="pub-title">Generalized linear model with functional predictors and their derivatives.</span>
+            A. Ahmedou, J.-M. Marion, B. Pumobe.
+            <span class="pub-venue">Journal of Multivariate Analysis</span>, Vol.&nbsp;146, avril&nbsp;2016, pp.&nbsp;313–324.</p>
+          </li>
+        </ul>
+        <p class="table-empty" id="noPubResults" hidden>Aucune publication ne correspond à votre recherche.</p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ACTUALITÉS
+    ============================================================= -->
+    <section id="actualites" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-kicker">Actualités</span>
+          <h2>Vie de l'unité</h2>
+        </header>
+
+        <div class="cards-grid news-grid">
+          <article class="news-card reveal">
+            <div class="news-date"><span>En cours</span></div>
+            <h3>Projets environnementaux en activité</h3>
+            <p>Poursuite des travaux sur le transport de polluants en milieu souterrain et la surveillance du littoral du Banc d'Arguin.</p>
+          </article>
+          <article class="news-card reveal">
+            <div class="news-date"><span>2020</span></div>
+            <h3>Nouvelle publication en modélisation</h3>
+            <p>Parution d'un article sur les antennes planaires ultra-large bande dans <em>Mathematical Modelling of Engineering Problems</em>.</p>
+          </article>
+          <article class="news-card reveal">
+            <div class="news-date"><span>Permanent</span></div>
+            <h3>Collaborations inter-institutionnelles</h3>
+            <p>Coopération continue entre l'Université de Nouakchott, l'IMROP, l'ONISPA, le PNBA et l'ENS au sein de l'unité mixte.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PARTENAIRES
+    ============================================================= -->
+    <section id="partenaires" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-kicker">Partenaires</span>
+          <h2>Nos institutions partenaires</h2>
+        </header>
+
+        <div class="logos-grid reveal">
+          <div class="logo-tile"><img src="logo/un.jpg" alt="Université de Nouakchott" loading="lazy"></div>
+          <div class="logo-tile"><img src="logo/onispa.jpg" alt="ONISPA" loading="lazy"></div>
+          <div class="logo-tile"><img src="logo/pnba.png" alt="Parc National du Banc d'Arguin (PNBA)" loading="lazy"></div>
+          <div class="logo-tile"><img src="logo/imrop.jpg" alt="IMROP" loading="lazy"></div>
+          <div class="logo-tile"><img src="logo/ens.jpg" alt="École Normale Supérieure (ENS)" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+    ============================================================= -->
+    <section id="contact" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-kicker">Contact</span>
+          <h2>Nous contacter</h2>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <div class="contact-row">
+              <span class="contact-ico" aria-hidden="true">✉️</span>
+              <div>
+                <h3>Email</h3>
+                <p><a href="mailto:contact@ames-univ-nkc.mr">contact@ames-univ-nkc.mr</a></p>
+              </div>
+            </div>
+            <div class="contact-row">
+              <span class="contact-ico" aria-hidden="true">📍</span>
+              <div>
+                <h3>Adresse</h3>
+                <p>Université de Nouakchott<br>Département de Mathématiques Appliquées<br>Nouakchott, Mauritanie</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulaire (ouvre le client mail via mailto sur un site statique) -->
+          <form class="contact-form reveal" id="contactForm">
+            <div class="field">
+              <label for="cf-name">Nom</label>
+              <input type="text" id="cf-name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="cf-email">Email</label>
+              <input type="email" id="cf-email" name="email" required>
+            </div>
+            <div class="field">
+              <label for="cf-msg">Message</label>
+              <textarea id="cf-msg" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       PIED DE PAGE
+  ============================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="logo/ames.png" alt="Logo UMR-AMES" class="footer-logo" width="48" height="56">
+        <p>UMR&#8209;AMES — Analyse et Modélisation pour l'Environnement et la Santé.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Liens de pied de page">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#presentation">Présentation</a></li>
+          <li><a href="#axes">Axes de recherche</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p><a href="mailto:contact@ames-univ-nkc.mr">contact@ames-univ-nkc.mr</a></p>
+        <p>Université de Nouakchott, Mauritanie</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> UMR&#8209;AMES — Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bouton retour en haut -->
+  <button id="backToTop" class="back-to-top" aria-label="Revenir en haut">↑</button>
+
+  <!-- Script principal -->
+  <script src="js/main.js"></script>
+</body>
+</html>
