@@ -36,8 +36,14 @@ les versions linguistiques aux moteurs de recherche.
 Accueil · Présentation · Axes de recherche · Équipes · Membres · Projets ·
 Publications · Actualités · Partenaires · Contact.
 
-## À compléter par l'unité
+## Contenu
 
-- Tableau **Membres** : champs « à compléter » (établissement, grade, email).
-- Section **Actualités** : ajouter les événements récents.
-- Section **Projets** : compléter avec les projets financés en cours.
+Les informations (présentation, équipes, membres permanents et associés,
+projets, publications, actualités, partenaires, contact) reprennent les
+données réelles de l'unité. Les deux versions FR/EN sont synchronisées.
+
+## À mettre à jour par l'unité
+
+- Ajouter les nouvelles **actualités** et **publications** au fil de l'eau.
+- Vérifier le décompte des effectifs (les chiffres-clés affichent 33/15/18 ;
+  les tableaux listent 18 permanents et 18 associés — à harmoniser si besoin).
